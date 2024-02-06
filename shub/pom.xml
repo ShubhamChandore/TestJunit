@@ -4,4 +4,22 @@
   <artifactId>shub</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>junitTest</name>
+<dependencies>
+    <!-- JUnit Jupiter API for unit testing -->
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-api</artifactId>
+        <version>5.7.0</version>
+        <scope>test</scope>
+    </dependency>
+
+    <!-- JUnit Jupiter Engine to run the tests -->
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-engine</artifactId>
+        <version>5.7.0</version>
+        <scope>test</scope>
+    </dependency>
+</dependencies>
+
 </project>
